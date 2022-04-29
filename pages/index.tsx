@@ -1,14 +1,17 @@
-import type { NextPage } from "next";
+import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
-import SignInButton from "../components/SignInButton";
-import SignUpButton from "../components/SignUpButton";
-import SignUp from "../components/SignUpButton";
 import SoftwareContainer from "../components/SoftwareContainer";
 import SoftwareContainerMobile from "../components/SoftwareContainerMobile";
-import styles from "../styles/Home.module.css";
-import newLines from "../public/lines.png";
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  //   const { data } = context.params;
+
+  return {
+    props: {},
+  };
+};
 
 const Home: NextPage = () => {
   return (
