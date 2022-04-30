@@ -1,7 +1,7 @@
 import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import LoggedInView from "../components/LoggedInView";
 import Navbar from "../components/Navbar";
 import NormalView from "../components/NormalView";
@@ -20,6 +20,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 const Home: NextPage = () => {
   const { loggedInUser, loggedInUsername } = useContext(UserContext);
   console.log("loggedInUser", loggedInUser);
+
   return (
     <div className={`z-50`}>
       <Head>

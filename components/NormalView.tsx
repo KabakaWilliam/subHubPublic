@@ -31,12 +31,20 @@ const NormalView = () => {
             <span className="text-[#f5e58d] underline">Repeat</span>
           </p>
         </div>
-        <div className="flex justify-center items-center h-[20vh]">
+        <div className="flex flex-col gap-y-2 md:gap-y-0 md:flex-row justify-center items-center h-[20vh]">
           <EarlyAccessButton />
+          <a
+            href="https://subhub.app"
+            target="_blank"
+            className="text-white md:hidden text-sm"
+          >
+            ✨PS: use your <span className="font-bold underline">default</span>{" "}
+            browser✨
+          </a>
         </div>
       </div>
       <div className="z-0  w-screen absolute bottom-0  ">
-        {/* <Image
+        {/* <Image🔎
       src={"/lines.png"}
       width={300}
       height={100}
