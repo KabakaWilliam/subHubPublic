@@ -25,10 +25,11 @@ const NormalView = () => {
 
         <div className="text-white w-[60vw] text-xl md:text-4xl font-thin flex items-center justify-center pt-10  text-center  ">
           <p>
-            Split <span className="font-bold text-purple-300 ">costs</span>.
-            <span className="font-bold text-orange-300 "> Manage</span>{" "}
-            subscriptions.{" "}
-            <span className="text-[#f5e58d] underline">Repeat</span>
+            Split <span className="font-bold text-[#8df58d] ">costs</span>.
+            <span className=""> Manage</span>{" "}
+            <span className="font-bold text-orange-300 ">passwords.</span>
+            <span className=""> Track</span>{" "}
+            <span className="text-purple-300 font-bold"> subscriptions</span>{" "}
           </p>
         </div>
         <div className="flex flex-col gap-y-2 md:gap-y-0 md:flex-row justify-center items-center h-[20vh]">
