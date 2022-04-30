@@ -44,7 +44,7 @@ const signOutFunction = async () => {
     mixpanel.init(process.env.NEXT_PUBLIC_PROJECT_TOKEN, {
       debug: true,
     });
-    mixpanel.track("Sign Out DropDown Clicked");
+    mixpanel.track("Sign Out  Clicked");
   }
 };
 export { signInFunction, signOutFunction, signUpFunction, EarlyAccessFunction };

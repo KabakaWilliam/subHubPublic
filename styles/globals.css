@@ -34,3 +34,9 @@ a {
     @apply bg-gradient-to-br from-[#4BE1EC] to-[#ff9472]  bg-clip-text text-transparent;
   }
 }
+
+@layer components {
+  .icons {
+    @apply w-[100px] h-[100px] flex items-center justify-center hover:bg-[#497b7ddd] rounded-lg cursor-pointer;
+  }
+}
