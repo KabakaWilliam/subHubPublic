@@ -1,3 +1,4 @@
+import EarlyAccessButton from "./EarlyAccessButton";
 import Navbar from "./Navbar";
 import SoftwareContainer from "./SoftwareContainer";
 import SoftwareContainerMobile from "./SoftwareContainerMobile";
@@ -31,9 +32,7 @@ const NormalView = () => {
           </p>
         </div>
         <div className="flex justify-center items-center h-[20vh]">
-          <button className="z-50 w-[150px] h-[80px] md:w-[200px] md:h-[100px] border-[2px] border-[#cf0fcf99] hover:bg-[#cf0fcf99] hover:border-black rounded-2xl text-white text-lg">
-            Get Early Access
-          </button>
+          <EarlyAccessButton />
         </div>
       </div>
       <div className="z-0  w-screen absolute bottom-0  ">
