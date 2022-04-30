@@ -48,7 +48,7 @@ const Home: NextPage = () => {
           property="og:description"
           content="Share and manage your subscriptions with your friends. No more surpise billings!"
         />
-        <meta property="og:image" content="/bgTwitter.png" />
+        <meta property="og:image" content="/apex.png" />
         <meta property="og:url" content="https://subhub.app" />
       </Head>
       {!loggedInUser ? <NormalView /> : <LoggedInView />}
