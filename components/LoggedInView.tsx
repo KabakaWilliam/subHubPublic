@@ -22,8 +22,8 @@ const LoggedInView = () => {
           </div>
 
           <div className="text-purple-300 text-lg md:text-2xl font-thin md:mt-10">
-            We'll be launching soon, but let us know what software you and your
-            friends want to share the most
+            We&apos;ll be launching soon, but let us know what software you and
+            your friends want to share the most
           </div>
           <div className="text-purple-300 md:text-2xl font-thin mt-10">
             - <i>Ciao</i>

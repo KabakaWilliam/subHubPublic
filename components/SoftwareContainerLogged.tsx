@@ -7,6 +7,7 @@ import {
   updateDoc,
   writeBatch,
 } from "firebase/firestore";
+import mixpanel from "mixpanel-browser";
 import Image from "next/image";
 import { useContext } from "react";
 import toast from "react-hot-toast";
@@ -39,7 +40,10 @@ const SoftwareContainerLogged = () => {
         const data = userSnap.data() as userFromFirestore;
         if (!data.AddedSoftware.includes(selectedSoftware)) {
           //   setIsValid(true);
-          console.log(data);
+          if (process.env.NEXT_PUBLIC_PROJECT_TOKEN) {
+            mixpanel.init(process.env.NEXT_PUBLIC_PROJECT_TOKEN);
+            mixpanel.track(`${selectedSoftware}`);
+          }
           await updateDoc(userRef, {
             AddedSoftware: arrayUnion(selectedSoftware),
           });
