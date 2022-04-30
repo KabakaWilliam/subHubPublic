@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         <title>Subhub | track your subscriptions</title>
         <meta
           name="description"
-          content="Ahoy! Share and manage your subscriptions with your friends.  No more surpise billings "
+          content="Share and manage your subscriptions with your friends.  No more surpise billings!"
         />
         <link
           rel="icon"
@@ -39,14 +39,14 @@ const Home: NextPage = () => {
         />
         <meta
           name="twitter:description"
-          content="Ahoy! Share and manage your subscriptions with your friends. No more surpise billings."
+          content="Share and manage your subscriptions with your friends. No more surpise billings!"
         />
         <meta name="twitter:image" content="/bgTwitter.png" />
 
         <meta property="og:title" content="Subhub | track your subscriptions" />
         <meta
           property="og:description"
-          content="Ahoy! Share and manage your subscriptions with your friends. No more surpise billings."
+          content="Share and manage your subscriptions with your friends. No more surpise billings!"
         />
         <meta property="og:image" content="/bgTwitter.png" />
         <meta property="og:url" content="https://subhub.app" />
