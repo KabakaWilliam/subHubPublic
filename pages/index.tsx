@@ -23,7 +23,7 @@ const Home: NextPage = () => {
   return (
     <div className={`z-50`}>
       <Head>
-        <title>Subhub</title>
+        <title>Subhub | track your subscriptions</title>
         <meta
           name="description"
           content="Ahoy! Share and manage your subscriptions with your friends.  Help us democratize software "
