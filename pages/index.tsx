@@ -41,7 +41,7 @@ const Home: NextPage = () => {
           name="twitter:description"
           content="Ahoy! Share and manage your subscriptions with your friends. No more surpise billings."
         />
-        <meta name="twitter:image" content="/apex.png" />
+        <meta name="twitter:image" content="/tweetCard.png" />
 
         <meta property="og:title" content="Subhub | track your subscriptions" />
         <meta
