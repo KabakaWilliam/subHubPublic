@@ -36,6 +36,7 @@ const NormalView = () => {
           <a
             href="https://subhub.app"
             target="_blank"
+            rel="noreferrer"
             className="text-white md:hidden text-sm"
           >
             ✨PS: use your <span className="font-bold underline">default</span>{" "}
