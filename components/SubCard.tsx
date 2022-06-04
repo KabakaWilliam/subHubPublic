@@ -34,9 +34,13 @@ const SubCard = ({ image }: props) => {
           </div>
           <SharerContainer />
         </div>
-        <div className="w-[100%] h-[60%] gap-y-3 flex flex-col justify-center">
-          <div>Next Payment Date:</div>
-          <div>Total Spent:</div>
+        <div className="w-[100%] h-[60%] gap-y-3 flex flex-col justify-center text-lg">
+          <div className="font-medium ">
+            Next Payment 🗓️: <span className="font-bold">13/03/2022</span>{" "}
+          </div>
+          <div className="font-medium ">
+            Total Spent 💰: <span className="font-bold">$60 </span>{" "}
+          </div>
         </div>
       </div>
     </Tooltip>
