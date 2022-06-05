@@ -9,15 +9,6 @@ const SubscriptionContainer = () => {
         <SubCard image="/netflix.png" />
         <SubCard image="/premierePro.png" />
         <SubCard image="/slack.png" />
-        <SubCard image="/netflix.png" />
-        <SubCard image="/premierePro.png" />
-        <SubCard image="/slack.png" />
-        <SubCard image="/netflix.png" />
-        <SubCard image="/premierePro.png" />
-        <SubCard image="/slack.png" />
-        <SubCard image="/netflix.png" />
-        <SubCard image="/premierePro.png" />
-        <SubCard image="/slack.png" />
       </div>
       <AddSubscriptionButton />
     </div>
